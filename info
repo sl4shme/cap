@@ -1,0 +1,11 @@
+  136  airodump-ng --bssid 14:49:E0:99:07:48 -c 6 -w plop1.cap wlp12s0mon
+  137  aireplay-ng -0 2 -a 14:49:E0:99:07:48 -c A8:BB:CF:12:05:76 wlp12s0mon
+  138  ls
+  139  ls -lah 
+  140  ls -lah plop1.cap-01.cap
+  144  wifi-menu 
+  147  airmon-ng start wlp12s0mon
+  150  airmon-ng stop wlp12s0monmon
+  151  ip a s
+  152  airmon-ng stop wlp12s0mon
+
